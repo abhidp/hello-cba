@@ -67,12 +67,15 @@ describe('Test Nav Menus', () => {
     'iphone-x',
     'ipad-mini',
     'samsung-note9',
-    'samsung-s10',
-    'iphone-xr',
     [320, 568],
     [411, 731]
+    // 'iphone-3',
+    // 'iphone-4',
+    // 'iphone-5',
+    // 'iphone-6',
     // 'iphone-6+',
     // 'samsung-s10',
+    // 'iphone-xr',
   ];
 
   context('Test nav menus in various resolutions/viewports', () => {
