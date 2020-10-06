@@ -1,0 +1,17 @@
+{
+  "baseUrl": "https://www.commbank.com.au/",
+  "viewportWidth": 1366,
+  "viewportHeight": 1024,
+  "defaultCommandTimeout": 30000,
+  "requestTimeout": 30000,
+  "responseTimeout": 30000,
+  "chromeWebSecurity": false,
+  "$schema": "https://on.cypress.io/cypress.schema.json",
+  "blockHosts": ["*datadoghq.com", "*cdn.segment.com", "*google-analytics.com"],
+  "video": true,
+  "screenshotOnRunFailure": false,
+  "experimentalFetchPolyfill": true,
+  "env": {
+    "apiBaseUrl": "https://hippo.edapp.com/api"
+  }
+}
