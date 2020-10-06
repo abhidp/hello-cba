@@ -1,7 +1,7 @@
 {
-  "name": "hello-edapp",
+  "name": "hello-cba",
   "version": "1.0.0",
-  "description": "hello-edapp",
+  "description": "hello-",
   "main": "index.js",
   "scripts": {
     "cy:open": "node_modules/.bin/cypress open",
